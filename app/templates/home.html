@@ -2,8 +2,22 @@
 
 {% block main %}
 
-<p> Welcome to our Brewsite Page!
-<p> {{ user }} </p>
+<div class="container mt-4">
+    <h2>Welcome to Luke's ICT362 Brewsite!</h2>
+
+    <p>
+        Feel free to enjoy a brew. It might make my simple coding more impressive! YOu may also get thirsty just reading about the different breweries and beer types. I hope you enjoy it!
+    </p>
+
+<img src="{{ url_for('static', filename='buddies.jpg') }}" width="250">
+
+<img src="{{ url_for('static', filename='hoppy.jpg') }}" width="250">
+
+<img src="{{ url_for('static', filename='neon.jpg') }}" width="250">
+
+<img src="{{ url_for('static', filename='table.jpg') }}" width="250">
+        
+</div>
 
 {% endblock main %}
 
